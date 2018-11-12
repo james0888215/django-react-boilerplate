@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/github/license/vintasoftware/django-react-boilerplate.svg)](LICENSE.txt)
 
-# Django React Boilerplate
+# Django React Boilerplate editing to comit
 
 ## About
 A [Django](https://www.djangoproject.com/) project boilerplate/template with lots of state of the art libraries and tools like:
@@ -46,13 +46,13 @@ After completing ALL of the above, remove this `Project bootstrap` section from 
 ## Running
 ### Setup
 - On project root, do the following:
-- Create a copy of ``{{project_name}}/settings/local.py.example``:  
+- Create a copy of ``{{project_name}}/settings/local.py.example``:
   `cp {{project_name}}/settings/local.py.example {{project_name}}/settings/local.py` (remembering you should replace `{{project_name}}` with your project's name!).
-- Create a copy of ``.env.example``:  
+- Create a copy of ``.env.example``:
   `cp .env.example .env`
-- Create the migrations for `users` app (do this, then remove this line from the README):  
+- Create the migrations for `users` app (do this, then remove this line from the README):
   `python manage.py makemigrations`
-- Run the migrations:  
+- Run the migrations:
   `python manage.py migrate`
 
 ### Tools
